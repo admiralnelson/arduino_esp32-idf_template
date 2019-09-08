@@ -1,5 +1,7 @@
-# Hello World Example
+# Arduino Template for ESP-IDF
 
-Starts a FreeRTOS task to print "Hello World"
+Intellisense works on: 
+- VSCode CMake
+- ~~Visual Studio 2017 CMake~~ (it only detects C header. STL/stdlib intellisense are broken)  
 
-See the README.md file in the upper level 'examples' directory for more information about examples.
+idf.py build to compile 
